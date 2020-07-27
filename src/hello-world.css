@@ -1,0 +1,12 @@
+
+
+p {
+    color: red;
+    /* Đây là chú thích trên một dòng */
+    text-align: center;
+}
+
+/* Đây là
+một chú thích
+trên nhiều dòng */
+
