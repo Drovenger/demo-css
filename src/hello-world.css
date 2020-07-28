@@ -1,3 +1,159 @@
+p.one {
+    border-style: solid;
+    border-width: 5px;
+}
+
+p.two {
+    border-style: solid;
+    border-width: medium;
+}
+
+p.three {
+    border-style: dotted;
+    border-width: 2px;
+}
+
+p.four {
+    border-style: dotted;
+    border-width: thick;
+}
+
+p.five {
+    border-style: double;
+    border-width: 15px;
+}
+
+p.six {
+    border-style: double;
+    border-width: thick;
+}
+
+p.seven {
+    border-style: solid;
+    border-width: 2px 10px 4px 20px;
+}
+
+p.dotted {
+    border-style: dotted;
+}
+
+p.dashed {
+    border-style: dashed;
+}
+
+p.solid {
+    border-style: solid;
+}
+
+p.double {
+    border-style: double;
+}
+
+p.groove {
+    border-style: groove;
+}
+
+p.ridge {
+    border-style: ridge;
+}
+
+p.inset {
+    border-style: inset;
+}
+
+p.outset {
+    border-style: outset;
+}
+
+p.none {
+    border-style: none;
+}
+
+p.hidden {
+    border-style: hidden;
+}
+
+p.mix {
+    border-style: dotted dashed solid double;
+}
+
+p.normal {
+    font-style: normal;
+}
+
+p.italic {
+    font-style: italic;
+}
+
+p.oblique {
+    font-style: oblique;
+}
+
+p.serif {
+    font-family: "Times New Roman", Times, serif;
+}
+
+p.sansserif {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div.ex1 {
+    direction: rtl;
+}
+
+p.small {
+    line-height: 0.7;
+}
+
+p.big {
+    line-height: 1.8;
+}
+
+p.uppercase {
+    text-transform: uppercase;
+}
+
+p.lowercase {
+    text-transform: lowercase;
+}
+
+p.capitalize {
+    text-transform: capitalize;
+}
+
+a {
+    text-decoration: none;
+}
+
+div {
+    border: 1px solid black;
+    padding: 10px;
+    width: 250px;
+    height: 250px;
+    text-align: justify;
+}
+
+body {
+    color: blue;
+}
+
+h1 {
+    color: green;
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 40px;
+}
+
+h2 {
+    text-align: left;
+    letter-spacing: -3px;
+    font-size: 30px;
+}
+
+h3 {
+    text-align: right;
+}
+
 #para1 {
     text-align: center;
     color: red;
@@ -7,6 +163,8 @@ p {
     color: red;
     /* Đây là chú thích trên một dòng */
     text-align: center;
+    text-indent: 50px;
+    font-size: 14px;
 }
 
 .center {
@@ -53,6 +211,36 @@ ol li {
 ul li {
     background: #cce5ff;
     margin: 5px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+th {
+    /*height: 50px;*/
+    background-color: #4CAF50;
+    color: white;
+}
+
+td {
+    height: 50px;
+    vertical-align: bottom;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+table, th, td {
+    border: 1px solid black;
+    text-align: left;
 }
 
 /* Đây là
